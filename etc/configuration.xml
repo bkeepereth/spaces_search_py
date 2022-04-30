@@ -1,0 +1,8 @@
+<configuration>
+    <property><name>BIN_DIR</name><value>/Users/daemon1/Dev/dev18/spaces_search_py/bin</value></property>
+    <property><name>ETC_DIR</name><value>/Users/daemon1/Dev/dev18/spaces_search_py/etc</value></property>
+    <property><name>LIB_DIR</name><value>/Users/daemon1/Dev/dev18/spaces_search_py/lib</value></property>
+    <property><name>WORK_DIR</name><value>/Users/daemon1/Dev/dev18/spaces_search_py/work</value></property>
+
+    <property><name>BEARER_TOKEN</name><value></value></property>
+</configuration>
