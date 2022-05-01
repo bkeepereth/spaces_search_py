@@ -1,5 +1,8 @@
 # spaces_search_py
 
+<p>
+</p>
+
 ## Configuration
 - set absolute paths for bin, etc, lib, work
 - set bearer_token (twitter_api v2)
@@ -14,10 +17,10 @@ file mode:  </br>
   EX: -i ../etc/topics.txt </br></br>
  
 text mode: <br>
-    -t = text </br>
-    -i = comma-delimited list, no spaces </br></br>
-
-  EX: -i nft,crypto,defi,web3
+ |  -t = text </br>
+ |  -i = comma-delimited list, no spaces </br></br>
+ |
+ |=> EX: -i nft,crypto,defi,web3
 
 </p>
   
