@@ -23,5 +23,9 @@ text mode: <br>
   
 ## Output
 <p align="center" width="15%" size="50%">
-   <img src="work/test_file.png">  
+   <img src="work/spaces_search_py_file_run.png">  
+</p>
+
+<p align="center" width="15%" size="50%">
+   <img src="work/spaces_search_py_text_run.png">  
 </p>
