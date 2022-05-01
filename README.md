@@ -1,6 +1,6 @@
 # spaces_search_py
 
-<p>
+<p>A Twitter Space Monitoring Daemon </br></br>
 </p>
 
 ## Configuration
