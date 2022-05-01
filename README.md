@@ -18,8 +18,8 @@ file mode:  </br>
  
 text mode: <br>
  |  -t = text </br>
- |  -i = comma-delimited list, no spaces </br></br>
- |
+ |  -i = comma-delimited list, no spaces </br>
+ | </br>
  |=> EX: -i nft,crypto,defi,web3
 
 </p>
