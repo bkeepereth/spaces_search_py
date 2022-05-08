@@ -47,7 +47,7 @@ def topic_search(bearer_token, topic_list, timeout):
                 search_url="https://api.twitter.com/2/spaces/search"
 
                 query_params={'query':x,
-                    'space.fields':'title,started_at',
+                    'space.fields':'title,started_at,participant_count',
                     'expansions':'creator_id,host_ids,speaker_ids'}
 
                 headers=create_headers(bearer_token)
@@ -65,6 +65,7 @@ def topic_search(bearer_token, topic_list, timeout):
                     speaker_ids=spaces[i]['speaker_ids']
                     space_id=spaces[i]['id']
                     started_at=spaces[i]['started_at']
+                    participant_count=spaces[i]['participant_count']
 
                     if space_id not in ids:  # added to prevent dups / run
                         start_dt=datetime(
@@ -88,7 +89,8 @@ def topic_search(bearer_token, topic_list, timeout):
                                 print("      Speaker: "+user['name']+" // "+user['username'])
 
                         print('''\n=> https://twitter.com/i/spaces/'''+str(space_id)+'''/peek
-=> Started: -'''+str(datetime.utcnow()-start_dt)[:7])
+=> Started: -'''+str(datetime.utcnow()-start_dt)[:7]+'''
+=> Listeners: '''+str(participant_count))
 
                         ids.append(space_id)
             except:
